@@ -4,6 +4,12 @@
   O projeto nasceu apartir do desastre causado nas cidades do Sudeste após as chuvas no Leste do estado de Minas, especialmente na cidade de Espera Feliz, uma pequena e pacata cidade de 25 mil habitantes. Cujo qual, os governantes as 18:00 saberiam que haveria uma enchente, porém não conseguiram avisar a população de forma efetiva, e, por volta das 04:00 da manhã, 75% da cidade foi coberta por lama e caos.
   
   Por sorte, dessa vez, não houve óbitos, porém, precaver é necessário, então esse projeto vem no intuito de dar credibilidade e amplitude na comunicação das prefeituras de pequenas cidades com seus moradores.
+  
+# FAQ
+1) O projeto contará com alguma automação para o envio dos alertas?
+  - Não, os envios serão manuais, facilitando assim o desenvolvimento e diminuindo o prazo. Nada impede que no futuro sejam adicionadas automações. Esse projeto tem o foco em cidades de Interior, logo, tem de ser adaptado a mentalidade da população desse tipo de cidade.
+2) Como evitar que o programa seja utilizado como plataforma política?
+  - As mensagens serão padronizadas, não haverá a possibilidade da prefeitura adicionar novas mensagens de forma fácil, a não ser que altere o programa. Inclusive, deve ser incluído nos termos de uso do programa que o mesmo não pode ser utilizado para esse fim.
 
 ## VISÃO GERAL
   O projeto deverá ser separado em microsserviços, cada um com seu container próprio, sua tecnologia própria, completamente independente um do outro, devem se comunicar via REST-API. Os containers podem, e devem, ser hospedados em estados serverless, utilizando o HEROKU gratis. - talvez no futuro possamos utilizar o AWS -
